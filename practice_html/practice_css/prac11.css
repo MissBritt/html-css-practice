@@ -1,0 +1,32 @@
+.cat{
+    width: 35px;
+    vertical-align: middle;
+    border-radius: 50px;
+    display: inline-block;
+
+  }
+
+  .text{
+    vertical-align: middle;
+    display: inline-block;
+    color: rgb(118, 104, 104);
+    font-family: arial;
+    font-size: 13px;
+    margin-left: 5px;
+  }
+
+  .button{
+    vertical-align: middle;
+    display: inline-block;
+    background-color: rgb(74, 149, 248);
+    color: rgb(255, 255,255);
+    font-weight: bold;
+    border: none;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 9px;
+    padding-right: 9px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 40px;
+  }
