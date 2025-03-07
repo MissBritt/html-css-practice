@@ -1,25 +1,65 @@
 <!DOCTYPE html>
 <html>
   <head>
-		<title>YouTube Clone</title>
-		<link rel="stylesheet" href="youtube.css">
+	  <title>YouTube Clone</title>
+	  <link rel="stylesheet" href="youtube.css">
 
-		<style>
+	  <style>
+		.search{
+	    display: block;
+	    margin-bottom: 5px;
+		}
 
-			.thumbnail{
-								
-			}
+	  .thumbnail{
+	    width: 300px;
+			margin-bottom: 12px;								
+	  }
 
-			.search{
-				
-			}
+		.video-title{
+			font-weight: bold;
+			margin-bottom: 10px;
 
-		</style>
+		}
+
+		.video-stats{
+			color: rgb(131, 119, 119);
+		}
+
+		.video-prev{
+			width: 300px;
+			display: inline-block;
+		}
+
+		.video-prev-two{
+			width: 300px;
+			display: inline-block;
+		}
+
+		p{
+			font-family: arial;
+			margin: 0px;
+		}
+	  </style>
 	</head>
 
 	<body>
+	  <input class="search" type="text" placeholder="Search">
+		<div class="video-prev">
+			
+			<img class="thumbnail" src="hq720.avif">
+			
+			<p class="video-title">Why I left Chuckle Sandwhich</p>
+			<p class="video-stats"> 552K views &#183; 11 days ago</p>
+		</div>
+
+		<div class="video-prev-two">
 	  <img class="thumbnail" src="hq720.avif">
-		<input class="search" type="text" placeholder="Search">
+	  
+	  <p class="video-title">Why I left Chuckle Sandwhich</p>
+	  <p class="video-stats"> 552K views &#183; 11 days ago</p>
+
+		</div>
+
 	</body>
 
 </html>
